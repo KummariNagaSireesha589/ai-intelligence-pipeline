@@ -1,0 +1,5 @@
+aiohttp>=3.10
+feedparser>=6.0
+python-dateutil>=2.9
+pydantic>=2.8
+pyyaml>=6.0
