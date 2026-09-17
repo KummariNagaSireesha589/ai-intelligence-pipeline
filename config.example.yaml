@@ -1,0 +1,15 @@
+# Replace/add legitimate source feeds. Do not add fabricated URLs or records.
+news_sources: []
+job_sources: []
+startup_sources: []
+product_sources: []
+research_queries:
+  - cat:cs.AI
+  - cat:cs.LG
+  - cat:cs.CL
+  - cat:cs.CV
+  - cat:cs.MA
+llm:
+  providers: [gemini, groq, deepseek]
+  max_chars: 24000
+freshness_hours: 24
